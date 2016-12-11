@@ -19,11 +19,44 @@ use yii\bootstrap\Html;
                     <tr>
 
                         <td style="text-align: center">1</td>
-                        <td>
-                            <?php
-                            $topic = "เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย";
-                            echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
-                            ?>
+                        <td width="650">
+                            <div >
+                                <?php
+                                $topic = "เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัยอ เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย";
+                                echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
+                                ?>
+                            </div>
+                            <div style="font-size: smaller;">
+                                <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    เมือง:20
+                                </span>
+                                <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    นค:20
+                                </span>
+                                <span style="margin-right: 2px;padding: 3px;background-color: limegreen;color: white">
+                                    ชก:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    บก:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    บท:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    พร:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: limegreen;color: white">
+                                    วบ:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: red;color: white">
+                                    วท:20
+                                </span>
+                                 <span style="margin-right: 2px;padding: 3px;background-color: yellow;color: brown">
+                                    นป:20
+                                </span>
+                               
+
+                            </div>
                         </td>
                         <td>509</td>
                         <td>20</td>
@@ -38,7 +71,7 @@ use yii\bootstrap\Html;
                         <td>เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย</td>
                         <td>509</td>
                         <td>20</td>
-                         <td style="color: white; text-align: center" bgcolor="#FF0000">
+                        <td style="color: white; text-align: center" bgcolor="#FF0000">
                             80.00
                         </td>
                     </tr>  
