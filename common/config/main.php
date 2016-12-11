@@ -9,6 +9,9 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'sp'=>[
+            'class'=>'common\components\sp'
+        ]
     ],
     'modules' => $modules
 ];
