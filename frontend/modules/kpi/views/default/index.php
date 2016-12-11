@@ -11,7 +11,7 @@ use common\components\sp;
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <table class="table table-bordered table-condensed">
+            <table class="table table-hover table-responsive">
                 <thead>
                 <th >#</th>
                 <th width="650">ตัวชี้วัด</th>
@@ -43,27 +43,35 @@ echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
                         </td>
                     </tr> 
 
-                    <tr>
+                     <tr>
 
                         <td style="text-align: center">2</td>
-                        <td>เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย</td>
-                        <td>509</td>
-                        <td>20</td>
-                        <td>
-                            80.00
-                        </td>
-                    </tr>  
-
-                    <tr>
-
-                        <td style="text-align: center">3</td>
-                        <td>เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย</td>
-                        <td>509</td>
-                        <td>20</td>
                         <td >
-                            80.00
+                            <div style="padding-bottom: 5px">
+<?php
+$topic = "เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัยอ เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย เด็กอายุ 0-5 ปีมีพัฒนาการสมวัย";
+echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
+?>
+                            </div>
+                            <div>
+                                <?= sp::ptext('มอ',59.99) ?>
+                                <?= sp::ptext('นค',80.99) ?>
+                                <?= sp::ptext('ชก',79.98) ?>
+                                 <?= sp::ptext('มอ',59.99) ?>
+                                <?= sp::ptext('นค',80.99) ?>
+                                <?= sp::ptext('ชก',79.98) ?>
+                                 <?= sp::ptext('มอ',59.99) ?>
+                                <?= sp::ptext('นค',80.99) ?>
+                                <?= sp::ptext('ชก',79.98) ?>
+                            </div>
                         </td>
-                    </tr>  
+                        <td>509</td>
+                        <td>20</td>
+                        <td style="text-align: center">
+                            <?=sp::btext('ต่อแสน',1080.09)?>
+                        </td>
+                    </tr> 
+                   
                 </tbody>
                 <tfoot>
 

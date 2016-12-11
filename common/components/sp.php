@@ -51,7 +51,7 @@ class sp extends Component {
 
         echo "  <span style= \"padding: 5px;
                       background-color: $color;color: $text_color \">
-                   <strong> $string $percent </strong>
+                   <strong> $percent ($string)  </strong>
                 </span> ";
     }
     
