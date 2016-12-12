@@ -21,21 +21,26 @@ use common\components\sp;
                 </thead>
                 <tbody>
                     <tr>
-
                         <td style="text-align: center">1</td>
-                        <td >
-                            <div style="padding-bottom: 5px">
+                        <td>
+                            <div style="padding-bottom: 5px;font-size: medium">
                                 <?php
                                 $topic = "ร้อยละโรงพยาบาลตั้งแต่ระดับ F2 ขึ้นไปสามารถให้ยาละลายลิ่มเลือด (Fibrinolytic drug) ในผู้ป่วย STEMI ได้";
                                 echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
                                 ?>
                             </div>
                             <div>
-                                <?= sp::ptext('มอ', 100, 'เมือง') ?>
-                                <?= sp::ptext('นค', 100) ?>
-                                <?= sp::ptext('วท', 100) ?>
-                                <?= sp::ptext('บก', 100) ?>
-
+                                <div>
+                                    <?= sp::ptext('มอ', 69.99); ?>
+                                    <?= sp::ptext('นค', 20.99) ?>
+                                    <?= sp::ptext('ชก', 99.98) ?>
+                                    <?= sp::ptext('บก', 69.99) ?>
+                                    <?= sp::ptext('บท', 30.99) ?>
+                                    <?= sp::ptext('พร', 79.98) ?>
+                                    <?= sp::ptext('วบ', 79.99) ?>
+                                    <?= sp::ptext('วท', 80.99) ?>
+                                    <?= sp::ptext('นป', 45.98) ?>
+                                </div>
                             </div>
                         </td>
                         <td>
@@ -50,10 +55,9 @@ use common\components\sp;
                     </tr> 
 
                     <tr>
-
                         <td style="text-align: center">2</td>
-                        <td >
-                            <div style="padding-bottom: 5px">
+                        <td>
+                            <div style="padding-bottom: 5px;font-size: medium">
                                 <?php
                                 $topic = "ร้อยละของผู้ป่วยโรคกล้ามเนื้อหัวใจขาดเลือดเฉียบพลัน (STEMI) ได้รับยาละลายลิ่มเลือด และ/หรือ การขยายหลอดเลือดหัวใจ";
                                 echo Html::a($topic, ['cup', 'topic' => $topic], ['target' => '_blank']);
@@ -63,12 +67,12 @@ use common\components\sp;
                                 <?= sp::ptext('มอ', 59.99); ?>
                                 <?= sp::ptext('นค', 80.99) ?>
                                 <?= sp::ptext('ชก', 79.98) ?>
-                                <?= sp::ptext('มอ', 59.99) ?>
-                                <?= sp::ptext('นค', 80.99) ?>
-                                <?= sp::ptext('ชก', 79.98) ?>
-                                <?= sp::ptext('มอ', 59.99) ?>
-                                <?= sp::ptext('นค', 80.99) ?>
-                                <?= sp::ptext('ชก', 79.98) ?>
+                                <?= sp::ptext('บก', 59.99) ?>
+                                <?= sp::ptext('บท', 80.99) ?>
+                                <?= sp::ptext('พร', 79.98) ?>
+                                <?= sp::ptext('วบ', 59.99) ?>
+                                <?= sp::ptext('วท', 80.99) ?>
+                                <?= sp::ptext('นป', 79.98) ?>
                             </div>
                         </td>
                         <td>
