@@ -27,7 +27,7 @@ class sp extends Component {
             $text_color = 'black';
         }
 
-        return "  <span title='$title' style= \"font-size: smaller;
+        return "  <span title='$title' style= \"font-size: smaller;display: inline-block;
                       margin-right: 3px;padding: 3px;border-radius: 5px;
                       background-color: $color;color: $text_color \">
                    <strong> $string ($percent) </strong>
@@ -50,7 +50,7 @@ class sp extends Component {
             $text_color = 'black';
         }
 
-        return "  <span style= \"padding: 5px;border-radius: 10px;
+        return "  <span style= \"padding: 5px;border-radius: 10px;display: inline-block;
                       background-color: $color;color: $text_color \">
                    <strong> $percent ($string)  </strong>
                 </span> ";
