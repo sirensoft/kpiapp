@@ -1,15 +1,13 @@
 <?php
-$mod1 = array_merge(   
-    require(__DIR__ . '/modules.php')
-);
+$mod_plus =  require(__DIR__ . '/module_plus.php');
 
-$mod2 = array_merge([
+$modules_main = [
     'admin' => [
         'class' => 'mods\admin\Admin',
     ],
-]);
+];
 
-$modules=  array_merge($mod1,$mod2);
+$modules_all=array_merge($modules_main,$mod_plus);
 
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
@@ -21,5 +19,5 @@ return [
             'class'=>'common\components\sp'
         ]
     ],
-    'modules' => $modules
+    'modules' => $modules_all
 ];
