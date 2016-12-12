@@ -1,9 +1,7 @@
 <?php
 
-return [
-    'admin' => [
-        'class' => 'mods\admin\Admin',
-    ],
+$modules = [
+    
     'kpi' => [
         'class' => 'frontend\modules\kpi\Kpi',
     ],
@@ -11,4 +9,6 @@ return [
         'class' => 'frontend\modules\test\Test',
     ],
 ];
+
+return $modules;
 

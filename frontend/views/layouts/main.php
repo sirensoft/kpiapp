@@ -30,7 +30,7 @@ AppAsset::register($this);
                 'brandLabel' => '<span class="glyphicon glyphicon-th-large"></span>',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
+                    'class' => 'navbar-custom navbar-fixed-top',
                 ],
             ]);
             echo Nav::widget([

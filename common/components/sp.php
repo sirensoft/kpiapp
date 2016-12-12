@@ -11,7 +11,7 @@ use yii\base\Component;
  */
 class sp extends Component {
 
-    public static function ptext($string = 'ข้อความ...', $percent = 99.99) {
+    public static function ptext($string = 'ข้อความ...', $percent = 99.99,$title='') {
 
         if ($percent < 60) {
             $color = 'red';
@@ -27,13 +27,14 @@ class sp extends Component {
             $text_color = 'black';
         }
 
-        echo "  <span style= \"font-size: smaller;margin-right: 3px;padding: 3px;
+        return "  <span title='$title' style= \"font-size: smaller;
+                      margin-right: 3px;padding: 3px;border-radius: 5px;
                       background-color: $color;color: $text_color \">
                    <strong> $string ($percent) </strong>
                 </span> ";
     }
 
-    public static function btext($string = 'ข้อความ...', $percent = 99.99) {
+    public static function btext($percent = 99.99,$string = 'ข้อความ...') {
 
         if ($percent < 60) {
             $color = 'red';
@@ -49,7 +50,7 @@ class sp extends Component {
             $text_color = 'black';
         }
 
-        echo "  <span style= \"padding: 5px;
+        return "  <span style= \"padding: 5px;border-radius: 10px;
                       background-color: $color;color: $text_color \">
                    <strong> $percent ($string)  </strong>
                 </span> ";
@@ -64,10 +65,14 @@ class sp extends Component {
             $text_color = 'black';
         }
 
-        echo "  <span style= \"font-size: smaller;margin-right: 3px;padding: 3px;
+        return "  <span style= \"font-size: smaller;margin-right: 3px;padding: 3px;
                       background-color: $color;color: $text_color \">
                    <strong> $string ($percent) </strong>
                 </span> ";
+    }
+    
+    public static function number($number='00'){
+         return " <span class=\"badge\" style=\"font-size: medium\">$number</span> ";
     }
 
 }
